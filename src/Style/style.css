@@ -1,0 +1,282 @@
+.menuBar {
+    -fx-background-color: #777EF0;
+    -fx-effect: dropshadow(two-pass-box, rgba(91, 89, 104, 0.8), 20, 0, 0, 0);
+}
+
+.playButton, .competitionButton, .exitButton, .gameCreateButton,
+.surrenderButton, .competitionButtons, .deleteButton, .competitionStartButton, .scoreBoardButton, .saveScoreboard{
+    -fx-start-margin: 5px;
+    -fx-background-color: #7776e8;
+    -fx-background-radius: 0;
+    -fx-effect: dropshadow(two-pass-box, rgba(91, 89, 104, 0.8), 5, 0, 0, 0);
+    -fx-font-weight: 800;
+    -fx-text-fill: white;
+    -fx-font-size: 1.2em;
+    -fx-cursor: hand;
+}
+
+.competitionButtons {
+    -fx-font-size: 1em;
+    -fx-min-width: 14.6em;
+}
+
+.exitButton {
+    -fx-start-margin: 50em;
+}
+
+.competitionButtons {
+    -fx-min-height: 3em;
+}
+
+.playButton:hover, .competitionButton:hover, .exitButton:hover, .gameCreateButton:hover, .surrenderButton:hover,
+.competitionButtons:hover, .deleteButton:hover, .competitionStartButton:hover, .scoreBoardButton:hover, .saveScoreboard:hover{
+    -fx-background-color: rgba(71, 69, 85, 0.5);
+}
+
+.mainTitle {
+    -fx-font-size: 2.2em;
+    -fx-font-weight: 900;
+    -fx-fill: rgba(109, 109, 250, 0.6);
+}
+
+.mainDescr {
+    -fx-font-size: 1.3em;
+    -fx-font-weight: 600;
+    -fx-fill: rgba(109, 109, 250, 0.6);
+}
+
+.green {
+    -fx-background-color: #519724;
+}
+
+.red {
+    -fx-background-color: #C70C0B;
+}
+
+.yellow {
+    -fx-background-color: #f6f22a;
+}
+
+.blue {
+    -fx-background-color: #34b9d0;
+}
+
+.pink {
+    -fx-background-color: #f4c1f0;
+}
+
+.colorButton {
+    -fx-background-radius: 30em;
+    -fx-min-width: 30px;
+    -fx-min-hight: 30px;
+
+    -fx-border-color: #777EF0;
+    -fx-border-width: 1.5px;
+    -fx-border-style: solid;
+    -fx-border-radius: 30em;
+
+    -fx-cursor: hand;
+}
+
+.error {
+    -fx-fill: #e90722;
+    -fx-font-weight: 600;
+    -fx-font-size: 1em;
+}
+
+.playerLetter {
+    -fx-font-size: 2em;
+    -fx-font-weight: 900;
+}
+
+.playerPane {
+    -fx-padding: 30px;
+}
+
+.playerCircle, .gameCirclePlayer {
+    -fx-stroke: #777EF0;
+    -fx-effect: dropshadow(two-pass-box, rgba(91, 89, 104, 0.3), 5, 0, 0, 0);
+}
+
+.playerName {
+    -fx-border-color: #777EF0;
+    -fx-alignment: center;
+}
+
+.gameCreateTitle, .gameInfo, .competitionInfo, .scoreboardHeader{
+    -fx-font-size: 2em;
+    -fx-font-weight: 900;
+    -fx-fill: #ABA9BB;
+}
+
+.gameCreateDescr, .playerDescr, .gameInfoDescr {
+    -fx-font-size: 1.2em;
+    -fx-font-weight: 600;
+    -fx-fill: #ABA9BB;
+}
+
+.gameCreateButton {
+    -fx-min-width: 10em;
+    -fx-min-height: 2em;
+}
+
+.gameCell {
+    -fx-effect: dropshadow(two-pass-box, rgba(91, 89, 104, 0.8), 5, 0, 0, 0);
+    -fx-fill: #FFF;
+}
+
+.gameButton {
+    -fx-effect: dropshadow(two-pass-box, rgba(91, 89, 104, 0.3), 5, 0, 0, 0);
+    -fx-background-color: #777EF0;
+    -fx-min-height: 4em;
+    -fx-min-width: 1.5em;
+    -fx-background-insets: 0 0 15 0;
+    -fx-shape: "M 0 -3.5 v 7 l 4 -3.5 z";
+    -fx-cursor: hand;
+}
+
+.gameButton:hover {
+    -fx-background-color: rgba(71, 69, 85, 0.5);
+}
+
+.gamePlayer {
+    -fx-padding: 25 0 0 0;
+}
+
+.surrenderButton {
+    -fx-min-width: 20;
+}
+
+.gameNamePlayer {
+    -fx-font-size: 1.1em;
+    -fx-font-weight: 600;
+    -fx-text-fill: #777EF0;
+}
+
+.listView .list-cell:empty, .listView .list-cell:empty:hover {
+    -fx-background-color: transparent;
+    -fx-background-insets: 0;
+    -fx-cursor: pointer;
+}
+
+.listView .list-cell {
+    -fx-alignment: center;
+    -fx-background-color: rgba(109, 109, 250, 0.8);
+
+    -fx-border-width: 5 0 5 0;
+    -fx-border-color: #F4F4F4;
+
+    -fx-cursor: hand;
+
+    -fx-font-weight: 800;
+    -fx-font-size: 1.2em;
+    -fx-text-fill: white;
+
+}
+
+.listView .list-cell:selected {
+    -fx-background-color: rgba(71, 69, 85, 0.8);
+}
+
+.listView .list-cell:hover {
+    -fx-background-color: rgba(71, 69, 85, 0.6);
+}
+
+.listView {
+    -fx-background-color: #F4F4F4;
+}
+
+.deleteAlert {
+    -fx-border-color: #6868cd;
+    -fx-border-width: 2;
+    -fx-border-radius: 0;
+    -fx-effect: dropshadow(three-pass-box, rgba(91, 89, 104, 1), 20, 0, 0, 0);
+    -fx-text-alignment: center;
+    -fx-alignment: center;
+    -fx-font-size: 1.2em;
+}
+
+/*CompetitionCreateView*/
+
+.competitionCreateTitle {
+    -fx-font-size: 2em;
+    -fx-font-weight: 900;
+    -fx-fill: #ABA9BB;
+}
+
+.competitionCreateDescr {
+    -fx-font-size: 1.2em;
+    -fx-font-weight: 600;
+    -fx-fill: #ABA9BB;
+}
+
+.competitionCreateTextbox {
+    -fx-border-color: #777EF0;
+    -fx-alignment: center;
+}
+
+.competitionCreateButton {
+    -fx-start-margin: 5px;
+    -fx-background-color: #7776e8;
+    -fx-background-radius: 0;
+    -fx-effect: dropshadow(two-pass-box, rgba(91, 89, 104, 0.8), 5, 0, 0, 0);
+    -fx-font-weight: 800;
+    -fx-text-fill: white;
+    -fx-font-size: 1.2em;
+    -fx-cursor: hand;
+    -fx-min-width: 10em;
+}
+
+.competitionCreateButton:hover {
+    -fx-background-color: rgba(71, 69, 85, 0.5);
+}
+
+/*CompetitionCreateView*/
+
+.competitionPlayer {
+    -fx-border-width: 2;
+    -fx-border-color: #7776e8;
+    -fx-min-width: 15em;
+    -fx-min-height: 2.5em;
+    -fx-alignment: center;
+}
+
+.competitionMatch {
+    -fx-min-width: 15em;
+    -fx-min-height: 2.5em;
+    -fx-alignment: center;
+}
+
+.competitionMatchFinished {
+    -fx-border-color: blue;
+}
+
+.competitionMatchWinner {
+    -fx-background-color: rgba(75, 215, 97, 0.75);
+}
+
+.competitionMatchloser {
+    -fx-background-color: rgba(215, 69, 62, 0.76);
+}
+
+.competitionRoundDevider {
+    -fx-fill: #7776e8;
+    -fx-stroke: #7776e8;
+    -fx-stroke-width: 2;
+}
+
+/*scoreboard view*/
+
+.emptySortingFilterCell, .sortingFilterCell {
+    -fx-alignment: center;
+    -fx-background-color: #7776e8;
+    -fx-border-radius: 0;
+    -fx-text-fill: white;
+    -fx-font-size: 1.2em;
+    -fx-font-weight: 700;
+    -fx-cursor: hand;
+}
+
+.combo-box .arrow, .combo-box .arrow-button{
+    -fx-background-color: #7776e8;
+}
