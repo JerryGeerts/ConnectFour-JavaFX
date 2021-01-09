@@ -1,1 +1,1 @@
-4 op een rij voor OOP2 @ HVA
+Local multiplayer connect four. 
